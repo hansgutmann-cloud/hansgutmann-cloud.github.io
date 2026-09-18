@@ -1,0 +1,5 @@
+// A small program. A real compiler.
+let a = input * 8;
+let b = input * 8;
+let unused = 12 * 3;
+return a + b + 0;

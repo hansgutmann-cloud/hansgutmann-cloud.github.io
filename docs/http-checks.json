@@ -1,0 +1,62 @@
+[
+  {
+    "path": "/",
+    "status": 200,
+    "content_type": "text/html; charset=utf-8",
+    "bytes": 26026
+  },
+  {
+    "path": "/note-order.html",
+    "status": 200,
+    "content_type": "text/html; charset=utf-8",
+    "bytes": 4163
+  },
+  {
+    "path": "/work-programs.html",
+    "status": 200,
+    "content_type": "text/html; charset=utf-8",
+    "bytes": 3667
+  },
+  {
+    "path": "/colophon.html",
+    "status": 200,
+    "content_type": "text/html; charset=utf-8",
+    "bytes": 5919
+  },
+  {
+    "path": "/assets/css/style.css",
+    "status": 200,
+    "content_type": "text/css; charset=utf-8",
+    "bytes": 36596
+  },
+  {
+    "path": "/assets/js/app.js",
+    "status": 200,
+    "content_type": "text/javascript; charset=utf-8",
+    "bytes": 10323
+  },
+  {
+    "path": "/assets/js/worker.js",
+    "status": 200,
+    "content_type": "text/javascript; charset=utf-8",
+    "bytes": 1390
+  },
+  {
+    "path": "/content/site.mjs",
+    "status": 200,
+    "content_type": "text/javascript; charset=utf-8",
+    "bytes": 12805
+  },
+  {
+    "path": "/examples/expression.wasm",
+    "status": 200,
+    "content_type": "application/wasm",
+    "bytes": 65
+  },
+  {
+    "path": "/assets/images/social.png",
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 271627
+  }
+]

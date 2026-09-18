@@ -1,0 +1,39 @@
+{
+  "passed": 29,
+  "checks": [
+    "Default compiler evaluates to 112",
+    "Actual Wasm execution (with explicit thread fallback)",
+    "Editable compiler and input evaluate to 82",
+    "WAT output is generated",
+    "Malformed code rejected without execution",
+    "All S3 associativity triples checked",
+    "a cubed is identity",
+    "b squared is identity",
+    "Noncommuting right multiplication is correct",
+    "Cache row walk: 192 hits, 64 misses",
+    "Cache column walk: 0 hits, 256 misses",
+    "Scheduler responds to quantum changes",
+    "Command menu opens with keyboard",
+    "Command navigation switches experiments",
+    "Roving tab keyboard navigation",
+    "Notes open accessible native dialogs",
+    "Escape closes native dialog",
+    "Chinese UI and content",
+    "Dark theme switches",
+    "No browser JavaScript exceptions",
+    "No horizontal page overflow at 360px",
+    "No horizontal page overflow at 390px",
+    "No horizontal page overflow at 768px",
+    "No horizontal page overflow at 1024px",
+    "Core content is present without JavaScript",
+    "Static SVG is available without JavaScript",
+    "Reduced motion uses non-smooth scrolling",
+    "Standalone article is readable",
+    "Standalone article translates"
+  ],
+  "limitations": [
+    "Managed Chromium disallows page navigation; local document content and modules were rendered using set_content and a local-resource route.",
+    "WebGL/WebGPU contexts were not available in this container. Screenshots show the actual SVG fallback.",
+    "Browser worker import failed in the opaque-origin test document; automatic main-thread fallback ran real WebAssembly. Browser Worker deployment still needs a normal-origin smoke test."
+  ]
+}

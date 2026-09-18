@@ -1,0 +1,7 @@
+dist/
+node_modules/
+.DS_Store
+*.log
+
+# Keep the original template archive local.
+/INVARIANT-homepage.zip

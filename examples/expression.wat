@@ -1,0 +1,13 @@
+(module
+  (func (export "compute") (param $input i32) (result i32)
+    (local $r0 i32)
+    (local $r1 i32)
+    (local $r2 i32)
+    (local $r6 i32)
+    (local.set $r0 (local.get $input))
+    (local.set $r1 (i32.const 8))
+    (local.set $r2 (i32.mul (local.get $r0) (local.get $r1)))
+    (local.set $r6 (i32.add (local.get $r2) (local.get $r2)))
+    (local.get $r6)
+  )
+)
