@@ -29,6 +29,11 @@
 .knot-slider{display:grid;grid-template-columns:62px 1fr 34px;align-items:center;gap:8px}
 .knot-slider output{font-size:10px;text-align:right;color:var(--accent);letter-spacing:0}
 .knot-slider input{width:100%;accent-color:var(--accent);height:18px;margin:0}
+.knot-custom{display:flex;flex-wrap:wrap;align-items:center;gap:4px;font-size:11px}
+.knot-custom-label{margin-right:6px}
+.knot-num{width:42px;font-size:11px;color:var(--ink);background:transparent;border:1px solid var(--line);border-radius:6px;padding:3px 4px;text-align:center;-moz-appearance:textfield}
+.knot-num:focus{outline:none;border-color:var(--accent)}
+.knot-note{margin-left:8px;color:var(--accent);font-size:10px;letter-spacing:.04em}
 .knot-foot{display:flex;justify-content:space-between;align-items:center;gap:10px;font-size:10px}
 .knot-hint{font-family:var(--mono);letter-spacing:.04em}
 @media(max-width:850px){.knot-panel{margin-left:15px;margin-right:0}}
