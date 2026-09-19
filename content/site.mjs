@@ -3,8 +3,8 @@
  * Work entries below describe research interests, not publication/award claims.
  */
 export const site = {
-  name: 'Hantao Zhou',
-  initials: 'HZ',
+  name: 'Hans Gutmann',
+  initials: 'HG',
   url: 'https://hansgutmann-cloud.github.io',
   github: 'https://github.com/hansgutmann-cloud',
   email: '',
@@ -12,11 +12,11 @@ export const site = {
   cv: '', // e.g. './assets/cv.pdf' — add your own public PDF first.
   defaultLanguage: 'en',
   defaultTheme: 'light',
-  description: 'Hantao Zhou — reinforcement learning, embodied intelligence, and the systems that make them possible.',
+  description: 'Hans Gutmann — reinforcement learning, embodied intelligence, and the systems that make them possible.',
   en: {
     role: 'RESEARCHER & SYSTEMS BUILDER',
     heroLines: ['Deep ideas.', 'Grounded', 'systems.'],
-    intro: 'I’m Hantao. I work across reinforcement learning, embodied intelligence, and the systems that make them possible.',
+    intro: 'I’m Hans. I work across reinforcement learning, embodied intelligence, and the systems that make them possible.',
     subintro: 'From mathematical structure to something that runs.',
     aboutTitle: 'An idea is only the beginning.',
     about: 'I’m interested in the space between a clean abstraction and a working system: how an agent learns, how a program represents intent, and how a machine turns that intent into motion. I like following a question through the layers rather than stopping at their boundaries.',
@@ -27,7 +27,7 @@ export const site = {
   zh: {
     role: '研究者 · 系统构建者',
     heroLines: ['深入原理，', '落于', '系统。'],
-    intro: '我是 Hantao。关注强化学习、具身智能，以及让它们真正运行起来的计算系统。',
+    intro: '我是 Hans。关注强化学习、具身智能，以及让它们真正运行起来的计算系统。',
     subintro: '从数学结构，到可以运行的事物。',
     aboutTitle: '一个想法，只是开始。',
     about: '我关心优雅抽象与真实系统之间的距离：智能体如何学习，程序如何表达意图，机器又如何把意图变成行动。比起停留在某一层，我更愿意沿着一个问题，追问到它的基础。',

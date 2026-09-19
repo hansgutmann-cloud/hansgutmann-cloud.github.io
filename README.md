@@ -53,7 +53,7 @@ The root and `dist/` are ordinary static sites. For GitHub Actions, select **Set
 
 For branch deployment, select **main / (root)** and disable the included Pages workflow. Commit rebuilt root HTML when content changes.
 
-This repository publishes to https://hansgutmann-cloud.github.io. The template’s Hantao Zhou identity is retained; edit `content/site.mjs` to update personal content. For a project site, set `site.url` to its full public URL; paths are relative and pages do not need SPA rewrites.
+This repository publishes to https://hansgutmann-cloud.github.io. The template’s Hans Gutmann identity is retained; edit `content/site.mjs` to update personal content. For a project site, set `site.url` to its full public URL; paths are relative and pages do not need SPA rewrites.
 
 An existing site should be changed on a review branch with its Git history preserved. Do not force-push or blindly replace an existing deployment pipeline.
 

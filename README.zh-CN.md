@@ -1,6 +1,6 @@
 # INVARIANT — 不变量
 
-一个克制、精密、可执行的个人主页模板。已适配仓库 `hansgutmann-cloud/hansgutmann-cloud.github.io`，保留模板中的 Hantao Zhou 姓名与介绍；所有公开信息集中在 `content/site.mjs`。
+一个克制、精密、可执行的个人主页模板。已适配仓库 `hansgutmann-cloud/hansgutmann-cloud.github.io`，保留模板中的 Hans Gutmann 姓名与介绍；所有公开信息集中在 `content/site.mjs`。
 
 **它是完整静态网站，不需要后端、数据库、API Key 或 npm 第三方依赖。** 纯 HTML + CSS + 原生 ES Modules。高级交互是浏览器端的渐进增强，GitHub Pages 只负责静态托管。
 
@@ -65,8 +65,8 @@ content/site.mjs
 主要字段：
 
 ```js
-name: 'Hantao Zhou',
-initials: 'HZ',
+name: 'Hans Gutmann',
+initials: 'HG',
 url: 'https://hansgutmann-cloud.github.io',
 github: 'https://github.com/hansgutmann-cloud',
 email: '',
